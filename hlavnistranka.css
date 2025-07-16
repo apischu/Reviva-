@@ -46,7 +46,7 @@ header {
   
   .button-up a {
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 20px;
     padding: 10px 15px;
     background-color: #000000;
     color: white;
@@ -114,11 +114,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .textmapa .button {
   display: inline-block;
   margin-top: 20px;
-  padding: 0px;
+  padding: 10px 20px; 
   background-color: #826251;
   color: white;
   text-decoration: none;
@@ -126,9 +125,14 @@ body {
   font-weight: bold;
   border: 2px solid #826251;
   transition: background-color 0.3s, color 0.3s;
+  width: fit-content; 
 }
-
 .textmapa .button:hover {
   background-color: white;
   color: #826251;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
 }
