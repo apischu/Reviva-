@@ -86,7 +86,7 @@ header {
 }
 
 body {
-    background-color: #f5eee6;
+    background-color: #ffffff;
 }
 .mapa-container {
   display: flex;
@@ -135,4 +135,17 @@ body {
   display: flex;
   justify-content: center; 
   margin-top: 20px;
+}
+.problematika .button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px; 
+  background-color: #826251;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid #826251;
+  transition: background-color 0.3s, color 0.3s;
+  width: fit-content; 
 }
