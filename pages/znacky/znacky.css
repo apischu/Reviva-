@@ -1,147 +1,147 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
 p {
-    margin-bottom: 30px;
-    font-size: 1.1em;
+  margin-bottom: 30px;
+  font-size: 1.1em;
 }
 
 .brand {
-    display: flex;
-    align-items: center;
-    margin-bottom: 25px;
-    background: white;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    max-width: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
 }
 
 .brand img {
-    width: 80px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 8px;
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
 }
 
 .brand-info {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .brand-name {
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-bottom: 5px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .brand-instagram {
-    font-size: 0.95em;
-    color: #555;
-    text-decoration: none;
+  font-size: 0.95em;
+  color: #555;
+  text-decoration: none;
 }
 
 .brand-instagram:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 header {
-    background-color: hsl(16, 53%, 43%);
-    padding: 0;
-    display: block;
-    width: 100%;
-  }
-  
-  .logo img {
-    height: 115px;
-    width: 115px;
-    object-fit: contain;
-} 
+  background-color: hsl(16, 53%, 43%);
+  padding: 0;
+  display: block;
+  width: 100%;
+}
 
-  .nav-actions {
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: auto;
-  }
-  
-  .header-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 5px;
-    background-color: #90B494;
-    height: auto;
-    margin-bottom: 50px;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-  }
-  .button-up {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-  }
-  
-  .button-up a {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px 15px;
-    background-color: #000000;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .button-up a:hover {
-    background-color: #555;
-  }
+.logo img {
+  height: 115px;
+  width: 115px;
+  object-fit: contain;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: #90b494;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.button-up {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.button-up a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button-up a:hover {
+  background-color: #555;
+}
 
 .brands-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    align-items: stretch; /* všechny boxy budou mít stejnou výšku */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: stretch; /* všechny boxy budou mít stejnou výšku */
 }
 
 .brand {
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    flex: 1 1 calc(50% - 20px);
-    box-sizing: border-box;
-    min-width: 280px;
-    height: 150px; 
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+  min-width: 280px;
+  height: 150px;
 }
 
 .brands-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 h1 {
@@ -156,13 +156,13 @@ p {
 }
 
 h1 {
-    font-weight: 700;      
-    font-size: 3em;        
-    margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .footer {
-  background-color: #90B494;
+  background-color: #90b494;
   color: white;
   padding: 2px;
   margin-top: 100px;
@@ -191,8 +191,10 @@ h1 {
 }
 
 .facebook {
-  background: url(./images/facebook-logo-svgrepo-com.svg) center center no-repeat;
+  background: url(./images/facebook-logo-svgrepo-com.svg) center center
+    no-repeat;
   background-size: 83%;
+  width: 300px;
 }
 
 .instagram {
