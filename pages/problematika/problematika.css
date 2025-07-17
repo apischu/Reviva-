@@ -1,0 +1,180 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    background-color: hsl(16, 53%, 43%);
+  }
+  
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #90B494;
+    flex-wrap: wrap;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Styl tlačítek v navigaci */
+.button-up {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-up:hover {
+    background-color: #555555;
+  }
+  
+  /* Rozložení navigace */
+  .nav-right {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Hero sekce */
+  .hero {
+    background-color: #e8f5e9;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-subtitle {
+    font-size: 1.3rem;
+    color: #4e4e4e;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Blog obsah */
+  .blog-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .blog-content h2 {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-content p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .blog-content ul {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .blog-content ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Obrázky v blogu */
+  .blog-img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+  
+  /* Tipy */
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .tip-box {
+    background-color: #f1f8f4;
+    padding: 1rem;
+    border-left: 4px solid #2e7d32;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  /* CTA text */
+  .cta-text {
+    margin-top: 2rem;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  /* Tlačítko */
+  .button-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .button {
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 0.9rem 1.8rem;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1b5e20;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1a1a1a;
+    color: #eee;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
