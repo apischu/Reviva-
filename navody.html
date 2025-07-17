@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="navody.css" />
+  <title>Jak na udržitelnou módu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    .pair {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .pair iframe {
+      width: 560px;
+      height: 315px;
+      max-width: 100%;
+      border: none;
+    }
+
+    .pair > div {
+      max-width: 500px;
+      flex: 1 1 300px;
+    }
+
+    @media (max-width: 700px) {
+      .pair {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .pair iframe,
+      .pair > div {
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+    .strihy {
+      text-align: center;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.95em;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .footer-section {
+      margin: 10px;
+    }
+
+    .footer-section h4 {
+      margin-bottom: 10px;
+    }
+
+    .footer-section a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-main">
+      <div class="logo">
+        <a href="hlavnistranka.html">
+          <img src="favicon4.png" alt="Reviva">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <h1>Jak na udržitelnou módu</h1>
+
+  <h2>Videonávody</h2>
+  <div>
+    <div class="pair">
+      <iframe src="https://www.youtube.com/embed/XmcavZZWlo8" allowfullscreen></iframe>
+      <div>
+        <h3>Videonávod na ušití šatů</h3>
+        <p>Léto je tady! A s ním přichází i velká vedra, a do těchto veder se hodí pořádné a stylové šaty...</p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <iframe src="https://www.youtube.com/embed/GTrOAw9PVTI" allowfullscreen></iframe>
+      <div>
+        <h3>Videonávod na ušití kalhot</h3>
+        <p>Kalhot není nikdy dost. Ale nechce se vám nechce do obchodu? Kalhoty jsou velmi praktický oděv...</p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <iframe src="https://www.youtube.com/embed/rbbKYHjuNPk" allowfullscreen></iframe>
+      <div>
+        <h3>Videonávod na ušití trička</h3>
+        <p>Chcete mít stylové tričko, se kterým se můžete chlubit na veřejnosti, a ještě k tomu se můžete chlubit i tím, že jste ho sami ušili?</p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <iframe src="https://www.youtube.com/embed/aUdG6owEnno" allowfullscreen></iframe>
+      <div>
+        <h3>Videonávod na ušití tašky</h3>
+        <p>Chcete vypadat při přenášení věcí stylově? Co si zkusit ušít praktickou tašku...</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Střihy</h2>
+  <div class="strihy">
+    <p>
+      Nevíte si rady s tím, jak udělat střih? A nebo se vám za něj nechce zbytečně platit? Tak to jste tady správně...
+    </p>
+
+    <h3>Střih dámské šaty</h3>
+    <img src="obrazky/saty-strih.png" alt="Střih dámské šaty" width="200" />
+
+    <h3>Střih dámské tričko</h3>
+    <img src="obrazky/tricko-strih.png" alt="Střih dámské tričko" width="200" />
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Adresa</h4>
+        <p>náměstí Junkových 2808/2<br>155 00 Praha 5</p>
+      </div>
+      <div class="footer-section">
+        <h4>Kontakt</h4>
+        <p><a href="mailto:reviva.cz.2025@gmail.com">reviva.cz.2025@gmail.com</a></p>
+      </div>
+      <div class="footer-section">
+        <h4>Sociální sítě</h4>
+        <p>
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a><br>
+          <a href="https://www.instagram.com/reviva_cz" target="_blank">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
