@@ -128,7 +128,7 @@
     padding: 20px;
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
   }
   
@@ -156,67 +156,59 @@
   /* Sekce s mapou */
   .mapa-container {
     display: flex;
-    gap: 40px;
+    justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 40px 20px;
-    background-color: #f6f6f6;
+    gap: 40px;
+    margin: 60px auto;
+    padding-left: 100px;
+    max-width: 1200px;
+  }
+  
+  .mapa-container iframe,
+  .mapa-container img {
+    width: 45%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   
   .textmapa {
-    flex: 1;
-    max-width: 500px;
-    font-size: 18px;
-    color: #000;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 60px;
-    border-left: 3px solid #716969;
+    align-items: center; /* zarovná vše na střed */
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .textmapa h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
   }
   
   .textmapa p {
+    font-size: 16px;
     margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .textmapa .button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #826251;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    border: 2px solid #826251;
-    transition: background-color 0.3s, color 0.3s;
-    width: fit-content;
-  }
-  
-  .textmapa .button:hover {
-    background-color: white;
-    color: #826251;
   }
   
   .button-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 15px;
   }
   
-  .problematika .button {
-    display: inline-block;
-    margin-top: 20px;
+  .button-wrapper .button {
     padding: 10px 20px;
-    background-color: #826251;
+    background-color: #000000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
-    border: 2px solid #826251;
-    transition: background-color 0.3s, color 0.3s;
-    width: fit-content;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .button-wrapper .button:hover {
+    background-color: #555;
   }
   
   /* Responsivní zobrazení */
@@ -242,6 +234,8 @@
       border-left: none;
       border-top: 2px solid #716969;
       padding-top: 20px;
+      align-items: center;
+      text-align: center;
     }
   
     .button-up {
@@ -249,12 +243,14 @@
       align-items: center;
     }
   }
+  
+  /* Hero sekce */
   .hero {
     display: flex;
-    flex-direction: column; /* zarovná nadpis a větu pod sebe */
-    justify-content: center; /* vertikální vystředění */
-    align-items: center;     /* horizontální vystředění */
-    height: 50vh;            /* výška sekce přes většinu obrazovky */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
     background-color: #f5f5f5;
     text-align: center;
     padding: 0 20px;
@@ -271,6 +267,8 @@
     color: #333;
     max-width: 700px;
   }
+  
+  /* Footer */
   .footer {
     background-color: #90B494;
     color: white;
@@ -309,4 +307,3 @@
     background: url(./images/instagram-svgrepo-com.svg) center center no-repeat;
     background-size: 100%;
   }
-  
