@@ -66,8 +66,6 @@ header {
   width: 100%;
 }
 
-
-
 body {
     font-family: Arial, sans-serif; 
     margin: 0;
@@ -109,3 +107,34 @@ a:hover {
 p {
     margin: 0; 
 }
+
+.ramecek {
+  border: 2px solid #444;        
+  padding: 12px;                  
+  border-radius: 8px;             
+  background-color: #f9f9f9;      
+  max-width: 400px;               
+  margin: 20px auto;              
+  font-family: sans-serif;        
+}
+
+.ramecek-obrazek {
+  border: 2px solid #444;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.ramecek-Německo {
+  border: 2px solid #444;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
